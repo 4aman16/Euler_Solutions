@@ -8,7 +8,7 @@ public class Largest_product_in_a_series {
     		final int len = 13;
    		 long lp = 0;
 
-    		  for (int i = 0; i < s.length() - len + 1; i ++) { //need 13 digits sum
+    		  for (int i = 0; i < s.length() - len + 1; i ++) { //will reove the 13 digits 
      			 long p = 1;
 	
      		  for (int j = i; j < i + len; j++) {
